@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.whattabiz.legall"
+    android:versionCode="40"
+    android:versionName="4.0">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/splashTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.UserHome"
+            android:label="@string/title_activity_user_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.VerificationWelcome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MobileVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Registration"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.StartupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ContentListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EPdfViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActsActivity"
+            android:label="@string/title_activity_acts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ArticlesActivity"
+            android:label="@string/title_activity_articles"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ArticleViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PdfViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.InternationalActivity"
+            android:label="@string/title_activity_international"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AppointmentViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NotificationViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PropertyActivity"
+            android:label="@string/title_activity_property"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TemplateViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BuyNowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LitigationSubCatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LawyerListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActsSubCatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LegalAdviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityNotification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActsPdfListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LawyerHome"
+            android:label="@string/title_activity_lawyer_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LAppointmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DocumentScrutinyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FindLawyerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TermsAndConditionViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LawyerDiaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ErrorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginHelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CaseDetailsActivity"
+            android:parentActivityName=".activity.LawyerDiaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditCaseDetails"
+            android:parentActivityName=".activity.LawyerDiaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddCaseActivity"
+            android:parentActivityName=".activity.LawyerDiaryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.startupCompanyActivity"
+            android:label="@string/title_activity_startup_company"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.LawyerSearchActivity" />
+        <activity android:name=".activity.PaymentGatewayActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/splashTheme"></activity>
+    </application>
+
+</manifest>

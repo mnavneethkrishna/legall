@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142159675610",
+    "firebase_url": "https://legall-1e63b.firebaseio.com",
+    "project_id": "legall-1e63b",
+    "storage_bucket": "legall-1e63b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142159675610:android:cb6ad4538a4ee3f7",
+        "android_client_info": {
+          "package_name": "com.whattabiz.legall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142159675610-jr660evitdcdo4asv83g3n25vfrdua1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whattabiz.legall",
+            "certificate_hash": "ECABFA88E68578A0560890D5FC06E50450785510"
+          }
+        },
+        {
+          "client_id": "142159675610-f5jmf2v7n6rjol6ber3504q909ckbaob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHDCN0csyXzmWzpc4oV26SZvl5TxgYXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142159675610-f5jmf2v7n6rjol6ber3504q909ckbaob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

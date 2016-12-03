@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.whattabiz.legall.activity.MobileVerification">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Verificaton"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/phone_verification_text"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_marginBottom="20dp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="#c0c0c0"
+            android:text="Please Enter Your Mobile Number to Verify, we will send you a verification SMS soon.."/>
+       <LinearLayout
+           android:id="@+id/verify_view"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:orientation="vertical">
+
+
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:text="+91"
+                   android:gravity="center"
+                   android:padding="10dp"
+                   android:layout_marginRight="0dp"/>
+               <EditText
+                   android:id="@+id/phone_number"
+                   android:layout_width="160dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:text=""
+                   android:hint="Mobile Number"
+                   android:textColorHint="#c0c0c0"
+                   android:gravity="center"
+                   android:padding="10dp"
+                   android:layout_marginLeft="0dp"
+                   android:inputType="number" />
+
+           </LinearLayout>
+
+           <Button
+               android:id="@+id/verify_btn"
+               android:layout_width="250dp"
+               android:layout_height="40dp"
+               android:background="@drawable/blue_button"
+               android:textColor="#ffffff"
+               android:layout_marginTop="20dp"
+               android:text="VERIFY"/>
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/success_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/done_img"
+                android:layout_margin="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/roundbtn"
+                android:padding="20dp"
+                android:src="@drawable/done_symbol"/>
+            <TextView
+                android:id="@+id/text_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="+91 9539518599"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginRight="0dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#c0c0c0"
+                android:text="Successfully Verified !"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginRight="0dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/continue_btn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:text="Continue"/>
+
+
+</RelativeLayout>

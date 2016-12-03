@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">legall</string>
+    <string name="title_activity_user_home">Legall</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="property_deeds">Property &amp; Deeds</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_acts_and_laws">Acts and Laws</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_acts">Acts and Laws</string>
+    <string name="title_activity_articles">Articles</string>
+    <string name="title_activity_article_viewer">ArticleViewerActivity</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+    
+
+      
+    </string>
+    <string name="title_activity_international">InternationalActivity</string>
+    <string name="title_activity_litigation">LitigationActivity</string>
+    <string name="about_whattabiz">\tM/s.Whattabiz is a software development firm dedicated in introducing business,organisations and service to smart solutions and automation and establishing their online footprint.We accomplish the same by development of Mobile Applications,Web Applications and Desktop applications.\n\tToday every aspect of life has gone online.Internet of things has touched more than a billion lives and counting, as we enter a new era of virtual assents.In such scenario,taking your business online takes up utmost importance.
+    \n\tInitially a student initiative aimed at bringing businesses online,Whattabiz has grown to be a Partnership firm with an able team of skilled developers in a multi-faceted Management Structure</string>
+
+    <string name="notification_text">Sorry, we coudnt get you the Appointment with Advocate Jaime Lannister. Kindly choose another Advocate for the required case. For any help feel free to contact us.</string>
+    <string name="title_activity_property">PropertyActivity</string>
+    <string name="property_text">
+
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+    </string>
+    <string name="request_failed">Itseems like your form is not validated by our server. Please check your registration form and try again</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_lawyer_home">LawyerHome</string>
+    <string name="about_us_caption_one">LEGALL as an app, the first of its kind in India, is a self contained programme designed to provide easy access to Law and Lawyers on one platform which can be downloaded by a user to a mobile device.
+This app would not only help the law inquisitive minds but also the public at large as it provides some of the best services in the legal field.</string>
+    <string name="about_us_who">We are a team of legal experts who bring to you the whole world of the legal system. Our team has individuals who have experience in the legal, business and IT industry for over 10 years and expertise in various areas. We are a team you can rely on!</string>
+    <string name="about_us_mission">To bring together the legal world and the state of the art technology to make legal services easily accessible to the common man. A legally aware nation is a prosperous nation and we work towards that dream.</string>
+    <string name="about_us_services">Our services encompass a wide range of legal and administrative fields. We help users find lawyers, get documents scrutinized, represent their cases in international relations, register their companies and much more. For lawyers we bring to the table a wide feature set covering their needs on a day-to-day basis</string>
+
+    <string name="faq_q1">1. How do I get to the lawyer once I make an appointment?</string>
+    <string name="faq_a1">A. You will receive a notification from Legall informing you about the location of the office and rendezvous date and time of appointment, normally within 24 hours of your booking.
+</string>
+
+    <string name="draft_deeds">Do you need a template to make a contract? Agreements, notices, appointments, sale deeds, property documents and many more. Find them all here, add to cart and just sit back while we send you the template!</string>
+
+    <string name="international">Stuck abroad with your papers insufficient? Facing immigration issues without access to lawyers? Do you require a good legal advice for your International Relations situation? Say no more! Legalls immigration experts are here for you!</string>
+    <string name="faq_q3">
+3. Can I access Legall app outside India?</string>
+    <string name="faq_a3">A. Certainly as long as you have a basic internet connectivity.</string>
+    <string name="faq_q4">4. Is the client information secure and confidential?</string>
+    <string name="faq_a4">A. All customer data is well encrypted using 128 bit security in our systems.
+</string>
+    <string name="faq_q5">5. How can I avail Legall services offline?</string>
+    <string name="lawyer_dairy"> This section provides a helping hand to all our Lawyer friends to store case data and client information, case posting dates and stages. It also would enable the Lawyer to send messages to his client about the postings.</string>
+    <string name="documentation"> We offer our Lawyer friends to share their case details, wherein our legal expert team would prepare synopsis or notes of arguments, with citations of High Courts and Supreme Courts.
+And add –on benefit for Lawyers whose time is precious and to make work easier and faster, rather than over burdening oneself, We will do the ground work for YOU.  "
+      </string>
+    <string name="faq_a6">A. The Acts and Laws section, once previously loaded, can be accessed offline. The rest of the features require active internet connectivity for processing. </string>
+    <string name="process_outsourcing">Kindly upload your documents and we will contact you with our quotation.\n\nMax 5 pages, if exceeds, please upload a PDF file.</string>
+    <string name="document_scrutiny">Max 5 photos. If pages exceed please upload PDF file of scanned documents.</string>
+    <string name="title_activity_startup_company">startupCompanyActivity</string>
+    <string name="title_activity_about_us">About Us</string>
+
+</resources>

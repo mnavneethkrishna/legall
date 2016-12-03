@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tb_translate"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_translate"
+        android:title="Translate"/>
+
+    <item
+        android:id="@+id/tb_search"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/search"
+        android:title="Search"/>
+
+</menu>

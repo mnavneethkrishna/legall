@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.VerificationWelcome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="#1976D1">
+        <Button
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LOGIN"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_welcome_blue"/>
+        <Button
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SIGNUP"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_welcome_blue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/ic_legall_splash"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Legall"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/legall_text"/>
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:textColor="#c0c0c0"
+            android:text="Welcome to Legall, India's largest commuity for lawyers and the only portal for all your legal queries ! "
+            android:typeface="sans"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:text="Get Started !"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
